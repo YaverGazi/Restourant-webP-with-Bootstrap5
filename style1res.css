@@ -1,0 +1,207 @@
+:root {
+    --bs-blue: #0d6efd;
+    --bs-indigo: #6610f2;
+    --bs-purple: #6f42c1;
+    --bs-pink: #d63384;
+    --bs-red: #dc3545;
+    --bs-orange: #fd7e14;
+    --bs-yellow: #ffc107;
+    --bs-green: #198754;
+    --bs-teal: #20c997;
+    --bs-cyan: #0dcaf0;
+    --bs-white: #fff;
+    --bs-gray: #6c757d;
+    --bs-gray-dark: #343a40;
+    --bs-primary: #0d6efd;
+    --bs-secondary: #6c757d;
+    --bs-success: #198754;
+    --bs-info: #0dcaf0;
+    --bs-warning: #ffc107;
+    --bs-danger: #dc3545;
+    --bs-light: #f8f9fa;
+    --bs-dark: #212529;
+    --bs-font-sans-serif: system-ui,-apple-system,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans","Liberation Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+    --bs-font-monospace: SFMono-Regular,Menlo,Monaco,Consolas,"Liberation Mono","Courier New",monospace;
+    --bs-gradient: linear-gradient(180deg, rgba(255, 255, 255, 0.15), rgba(255, 255, 255, 0));
+}
+
+
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: sans-serif;
+    color: #777;
+    line-height: 1.7;
+}
+
+a.nav-link {
+    color: #222;
+    text-decoration: none;
+    transition: all 0.4s;
+    font-weight: 600;
+
+}
+
+a.nav-link:hover {
+    color: #F58d17;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: 600;
+ 
+}
+
+img {
+    min-width: 100%;
+}
+
+.btn {
+    border-radius: 0;
+    padding: 15px 30px;
+}
+
+.btn-brand {
+    background: #F58d17;
+    font-weight: 500;
+    color: #fff;
+    border-color: #F58d17;
+    
+    
+}
+.btn-brand:hover{
+     background: #ca7310; 
+      border-color: #ca7310;
+    color: #fff;
+}
+
+.carousel-caption{
+    margin-bottom: 150px;
+}
+
+.helper-class{
+    min-height: 50vh;
+    padding-top: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.carousel-control-prev,
+.carousel-control-next{
+    position: absolute;
+    top: 250px;
+   
+}
+
+.intro-text{
+    max-width: 550px;
+    margin:auto;
+}
+
+
+.nav-pills .nav-link{
+ 
+    color: #343a40;
+    background/: yellow;
+   font-weight: 600;
+    border-radius: 100px;
+    margin: 5px;
+}
+
+.nav-item {
+    background-color: aliceblue;
+    color: gainsboro;
+}
+
+.menu-item-content .ok{
+    color: #ffc107;
+    font-weight: 700;
+}
+
+.shadow-class{
+    transition:all 0.6s;
+    
+}
+.shadow-class:hover{
+    box-shadow:  0 10px  40px black;}
+    
+.borderx{
+    border: 1px solid white;
+    transition: all 0.4s;
+    
+}
+.borderx:hover{
+ border-color: dodgerblue;
+}
+
+.borderx{
+    transition: all 0.5s;
+    
+}
+.borderx:hover{
+    box-shadow: -6px 6px 0 0;
+}
+
+.fa-star{
+	font-size: 12px;
+     color: #ffc107;
+	font-weight: 900;
+}
+
+.bottam{
+	margin-bottom: 100px;
+}
+
+.Feature{
+	border: 1px solid #fff;
+	padding: 5px;
+	margin-top: 20px;
+}
+.feature-icon .fa-solid{
+	background-color: #ffc107;
+	font-size: 25px;
+	font-weight: 900;
+	padding: 6px;
+}
+.team{
+	border: 1px solid  gray;
+}
+.team img{
+	border-radius: 50%;
+	
+
+}
+
+.team-text{
+	margin-top: 5px;
+}
+
+
+.feature{
+	background-color:#f8f9fa; 
+}
+
+#reservation .form-control{
+	border-radius: 0;
+}
+
+#reservation .form-control:focus{
+	box-shadow: none;
+	border-color: darkorange;
+	
+}
+h4{
+	color: black;
+}
+
